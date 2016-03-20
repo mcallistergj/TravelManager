@@ -1,0 +1,98 @@
+1.) Initialize airport system.
+2.) Change seat prices in a flight section.
+3.) Look up flights with available seats.
+4.) Change pricing of given seat class.
+5.) Book a specific seat on a given flight.
+6.) Book a seat given a seating preference.
+7.) Display Airport System Details.
+8.) Store Airport System Details to file.
+9.) Exit the system.
+Please choose desired option:
+1
+Please enter input file:
+input.txt
+Airport System initialized.
+Please choose desired option:
+7
+Airports: 
+	DEN
+	NYC
+	SEA
+	LAX
+Airlines: 
+AMER
+	Flights 
+	Flight num: AA1	Originating Airport: DEN	Destination Airport: LAX	Date: 10/8/2011 16:30
+		Economy	Price: 200		S: 4
+		First	Price: 500		S: 2
+	Flight num: AA2	Originating Airport: LAX	Destination Airport: DEN	Date: 8/9/2011 7:30
+		Economy	Price: 200		S: 5
+		First	Price: 500		S: 3
+UNTD
+	Flights 
+	Flight num: UA21	Originating Airport: NYC	Destination Airport: SEA	Date: 11/8/2011 12:30
+		Economy	Price: 300		S: 6
+		First	Price: 800		S: 3
+	Flight num: UA12	Originating Airport: SEA	Destination Airport: DEN	Date: 8/9/2011 7:30
+		Business	Price: 700		S: 5
+		First	Price: 1200		S: 2
+Please choose desired option:
+2
+Please enter flight number of section price to change:
+ua12
+Please enter section class to price change:
+first
+Please enter desired new price:
+500
+Please choose desired option:
+7
+Airports: 
+	DEN
+	NYC
+	SEA
+	LAX
+Airlines: 
+AMER
+	Flights 
+	Flight num: AA1	Originating Airport: DEN	Destination Airport: LAX	Date: 10/8/2011 16:30
+		Economy	Price: 200		S: 4
+		First	Price: 500		S: 2
+	Flight num: AA2	Originating Airport: LAX	Destination Airport: DEN	Date: 8/9/2011 7:30
+		Economy	Price: 200		S: 5
+		First	Price: 500		S: 3
+UNTD
+	Flights 
+	Flight num: UA21	Originating Airport: NYC	Destination Airport: SEA	Date: 11/8/2011 12:30
+		Economy	Price: 300		S: 6
+		First	Price: 800		S: 3
+	Flight num: UA12	Originating Airport: SEA	Destination Airport: DEN	Date: 8/9/2011 7:30
+		Business	Price: 700		S: 5
+		First	Price: 500		S: 2
+Please choose desired option:
+3
+Please enter originating airport:
+den
+Please enter desired destination
+lax
+Please enter date and time of departure ex; MM/DD/YYYY,15:30
+10/8/2011,16:30
+Available Flights from den to lax
+	Flight num: AA1	Originating Airport: DEN	Destination Airport: LAX	Date: 10/8/2011 16:30
+EconomyPrice: 200
+Please choose desired option:
+6
+Please enter desired class:
+first
+Please enter seating preference:
+aisle
+Please enter desired flight number:
+aa1
+aisle seat 1A in First class booked!
+Please choose desired option:
+8
+Please enter file to write to:
+output.txt
+Information successfully written to output.txt
+Please choose desired option:
+9
+Goodbye
